@@ -7,7 +7,6 @@ import requests
 import base64
 import logging
 import re
-import dns.resolver
 from datetime import datetime, date,timedelta
 import json
 import xml.etree.ElementTree as ET

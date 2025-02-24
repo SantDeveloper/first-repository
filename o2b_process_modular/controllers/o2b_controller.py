@@ -1212,7 +1212,7 @@ class {class_name}(http.Controller):
             
             custom_model = request.env['ir.model'].sudo().search([('model', '=',internal_model_name)])
             if not custom_model:
-                return json.dumps( {"message":"Module installation wat not upgraded last time. please click deploy button again."})
+                return json.dumps( {"message":"Module installation was not upgraded last time. please click deploy button again."})
 
             node_length = len(activities)
             self.create_status_bar(activities,node_length,process,custom_model)
